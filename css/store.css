@@ -1,0 +1,50 @@
+.add-card {
+  margin-top: 30px;
+}
+
+.information-product {
+	font-family: "cairo", sans-serif;
+}
+
+.add-card .box {
+  gap: 20px;
+}
+
+.add-card .box .photo {
+  height: 500px;
+}
+
+.add-card .box .photo img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.how-want i {
+  padding: 9px;
+  background: #eee;
+  cursor: pointer;
+}
+
+.how-want span {
+  padding: 4px 9px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.buy-now {
+  gap: 20px;
+}
+
+.buy-now button {
+  border: none;
+  background: #000;
+  color: #fff;
+  padding: 5px 20px;
+}
+
+@media (max-width: 576px) {
+  .buy-now button {
+    width: 60%;
+    margin: auto;
+  }
+}
